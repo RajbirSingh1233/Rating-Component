@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Overpass:ital,wght@0,100;0,400;1,100&family=Pacifico&display=swap');
+
+body{
+    background-color: hsl(216, 12%, 8%);
+}
+#main_card{
+    height:400px;
+    width:400px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 40px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+
+#star_svg{
+    height: 50px;
+    width: 50px;
+    background-color: rgba(124,135,152,0.2);
+    border-radius: 50%;
+    position: absolute;
+    left:9%;
+    top:8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#heading{
+    color: hsl(0, 0%, 100%);
+    position: absolute;
+    top:20%;
+    left:9%;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+}
+
+#para{
+    color: #959eac;
+    position: absolute;
+    font-weight: 400;
+    font-size: 15px;
+    top:32%;
+    left:9%;
+    right:10%;
+    line-height: 20px;
+}
+
+.rating-btn{
+    color: #959eac;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(124,135,152,0.2);
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    z-index: -1;
+}
+
+#ratings .rating-btn:nth-child(1){
+    top: 60%;
+    left: 10%;
+}
+#ratings .rating-btn:nth-child(2){
+    top: 60%;
+    left: 27%;
+}
+#ratings .rating-btn:nth-child(3){
+    top: 60%;
+    left: 44%;
+}
+#ratings .rating-btn:nth-child(4){
+    top: 60%;
+    left: 61%;
+}
+#ratings .rating-btn:nth-child(5){
+    top: 60%;
+    left: 77%;
+}
+
+#ratings .rating-btn:hover{
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+.active{
+    background-color: #959eac;
+    color: hsl(0, 0%, 100%);
+    
+}
+
+.btn_submit{
+    width: 80%;
+    height: 40px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+.btn_submit:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+/* Thankyou container styling part */
+
+.card-content-2{
+    font-family: 'Overpass';
+    position: absolute;
+    top: 12%;
+    text-align: center;
+}
+.result p{
+    color: hsl(25, 97%, 53%);
+    position: absolute;
+    left: 25%;
+    background-color: rgba(124,135,152,0.2);
+    border-radius: 20px;
+    width: 42%;
+    padding: 6px 15px;
+    margin-bottom: 40px;
+}
+
+.title{
+    color: hsl(0, 0%, 100%);
+    position: relative;
+    top: 60px;
+}
+
+.text{
+    color: #959eac;
+    position: relative;
+    left: 9%;
+    top: 50px;
+    width: 81%;
+    font-size: 16px;
+}
+
+.hide{
+    display: none;
+}
